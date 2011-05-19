@@ -1,0 +1,43 @@
+body {
+  background-color:#000000;
+}
+
+#battery {
+  height:182px;
+  margin:0px auto;
+  width:341px;
+  position:relative;
+}
+
+img {
+  left:0px;
+  position:absolute;
+  top:0px;
+  z-index:2;
+}
+
+#capacity {
+  height:135px;
+  left:28px;
+  position:absolute;
+  top:22px;
+  width:270px;
+  z-index:1;
+}
+
+#capacity.full {
+  background-color:#2AAF2C;
+}
+
+#capacity.low {
+  background-color:#af2a2a;
+  width:40px;
+}
+
+h1 {
+  font-family:verdana, helvetica;
+  font-size:58px;
+  color:#1B1D20;
+  text-align:center;
+  text-shadow: #888 0px 1px 0px;
+}
